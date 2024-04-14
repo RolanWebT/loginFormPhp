@@ -408,7 +408,7 @@ if(DEBUG)							echo "<p class='debug err'><b>Line " . __LINE__ . "</b>: Der Use
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-		<title>Antaui Login</title>
+		<title>Login Php Form</title>
 		<link rel="stylesheet" href="./assets/css/theme.css">
 		<link rel="stylesheet" href="./assets/css/debug.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

@@ -415,9 +415,7 @@ if(DEBUG_DB)			echo "<p class='debug db'><b>Line " . __LINE__ . "</b>: DB-Verbin
 	<div class="main">
 		<h1 class="center">Welcome Page :) </h1>
 
-		
-
-			<div class="update">
+		<div class="update">
 				<h2> Edit your Password </h2>
 				<form  method="POST">
 				<input type="hidden" name="formEditPassword">
