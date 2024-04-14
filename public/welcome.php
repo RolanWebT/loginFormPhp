@@ -429,14 +429,14 @@ if(DEBUG_DB)			echo "<p class='debug db'><b>Line " . __LINE__ . "</b>: DB-Verbin
 					<span class="success"><?= $dbSuccess ?></span>
 				<?php endif ?>
 
-				<input type="password" name="f1" size="20" placeholder="Neues Passwort..." required><br>
-				<input type="password" name="f2" placeholder="Neues Passwort wiederholen..." required><br>
+				<input type="password" name="f1" size="20" placeholder="New password..." required><br>
+				<input type="password" name="f2" placeholder="Rewrite new password..." required><br>
 				<br>
-				<input type="password" name="f3" placeholder="Mit bisherigem Passwort bestätigen..." required>
+				<input type="password" name="f3" placeholder="Old password to confirm..." required>
 				
 				<br>
 				
-				<input type="submit" class="btn service" value="Änderungen speichern">
+				<input type="submit" class="btn service" value="Update password">
 				</form>
 			</div>
 			<div class="update">
