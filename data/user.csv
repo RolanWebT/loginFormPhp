@@ -1,0 +1,3 @@
+id,username,password,failed,blocked,lastlogin
+1,user001@domain.org,pAsw00R3,0,0,"2024-04-09 19:43:22"
+2,user002@domain.org,pAsw00R3,4,1,"2023-01-01 12:03:20"

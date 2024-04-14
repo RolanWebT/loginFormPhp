@@ -1,0 +1,175 @@
+/********** MAIN **********/
+body {
+    color: #3c434a;
+    background: #f0f0f1;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.main {
+    padding: 0 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #3c434a;
+}
+
+.normal_text {
+    font-size: 20px;
+    color: #555;
+}
+
+.data {
+    font-style: italic;
+    color: salmon;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.login {
+    width: 320px;
+    padding: 0 0;
+    margin: auto;
+}
+
+.update {
+    width: 320px;
+}
+
+.login form,
+.update form {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 34px;
+    font-weight: 400;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .04);
+}
+
+.login label,
+.update label {
+    font-size: 14px;
+    line-height: 1.5;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.login input,
+.update input {
+    font-size: 16px;
+    line-height: 1.33333333;
+    width: 100%;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 0.1875rem 0.3125rem;
+    margin: 0 6px 16px 0;
+    min-height: 40px;
+    max-height: none;
+    color: #3c434a;
+}
+
+#submit {
+    background: dodgerblue;
+    border-color: dodgerblue;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+#submit.disabled {
+    background: #777;
+    border-color: #777;
+    color: #999;
+    cursor: auto;
+}
+
+
+/********** SPECIAL FORMULARS STYLES **********/
+header {
+    text-align: right;
+}
+
+form.login {
+    width: 435px;
+}
+
+.btn {
+    margin: 6px 6px;
+    padding: 16px 20px;
+    border: 1px solid #777;
+    border-radius: 4px;
+    background: #ddd;
+}
+
+.btn:hover {
+    background: #eee;
+}
+
+.btn.service {
+    background: lightsalmon;
+    border-color: salmon;
+    cursor: pointer;
+    margin: 6px 6px;
+    padding: 16px 20px;
+
+}
+
+.btn.service:hover {
+    color: salmon;
+    background: orange;
+}
+
+/********** FLOATING **********/
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+
+/********** USER MESSAGES STYLES **********/
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.info {
+    color: darkorange;
+}
+
+.marker {
+    color: darkred;
+    font-size: 1.1em;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.log_text {
+    background: lightgoldenrodyellow;
+}
+
+.log_text span {
+    font-style: italic;
+    color: dodgerblue;
+}
